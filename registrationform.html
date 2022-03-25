@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <link rel="icon" href=""> <!--Favicon Image -->
+    <link rel="stylesheet" href="formcss.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <h1 style="text-align: center;">Registration Form</h1>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">First Name</span>
+                    <input type="text" name="" placeholder="Enter Your First Name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name</span>
+                    <input type="text" name="" placeholder="Enter Your Last Name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" name="" placeholder="Enter Your Email">
+                </div>
+                <div class="input-box">
+                    <span class="details">DOB</span>
+                    <input type="date" name="" placeholder="Enter Your DateOf Birth">
+                </div>
+                
+                <div class="input-box">
+                    <span class="details">Gender</span><br>
+                    <input type="radio" name="gender" class="dot">Male
+                    <input type="radio" name="gender" class="dot">Female
+                </div>
+                <div class="input-box">
+                    <span class="details">Education</span><br>
+                    <input type="checkbox" name="course1" class="dot">
+                    <label for="course1">MCA</label>
+
+                    <input type="checkbox" name="course2" class="dot">
+                    <label for="course2">BCA</label>
+
+                    <input type="checkbox" name="course3" class="dot">
+                    <label for="course3">12<sup>th</sup></label>
+
+                    <input type="checkbox" name="course4" class="dot">
+                    <label for="course4">10<sup>th</sup></label>
+                </div>
+                <div class="input-box">
+                    <span class="details">Contact</span>
+                    <input type="tel" name="" placeholder="Enter Your Contact Number">
+                </div>
+                <div class="input-box">
+                    <span class="details">Address</span><br>
+                    <textarea name="adres" id="address"  cols="40" rows="3"></textarea>
+                </div>
+                <div class="input-box">
+                    <span class="details">Upload ID</span><br>
+                    <input type="file" name="identity" class="uplodid">
+                </div>
+                <div class="input-box">
+                    <span class="details">Select Course</span><br>
+                    <input type="radio" name="course" class="dot">Web Development
+                    <input type="radio" name="course" class="dot">Full Stack
+                    <input type="radio" name="course" class="dot">UI/UX
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" name="" placeholder="Enter Password">
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" name="" placeholder="Confirm Password">
+                </div>
+                       
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

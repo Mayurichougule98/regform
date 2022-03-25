@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:cursive;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background-repeat: no-repeat;
+}
+h1{
+    margin-bottom: 25px;
+}
+.container{
+    max-width: 700px;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+    padding-bottom: 8px;
+} 
+.user-details .input-box input{
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20 px;
+}
+.user-details .input-box .dot{
+    height: 20px;
+    width: 18px;
+    accent-color:#9b59b6;
+    color: white;
+}
+.user-details .input-box .uplodid{
+    border: none;
+}
+#address{
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20 px;
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background :linear-gradient(136deg, #71b7e6, #9b59b6);
+}
+form .button input:hover{
+    background :linear-gradient(-136deg, #71b7e6, #9b59b6);
+}
